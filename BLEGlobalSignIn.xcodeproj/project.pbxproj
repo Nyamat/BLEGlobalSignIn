@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841A71051B4E3BD20015F304 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A71041B4E3BD20015F304 /* main.m */; };
+		841A71081B4E3BD20015F304 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A71071B4E3BD20015F304 /* AppDelegate.m */; };
+		841A710B1B4E3BD20015F304 /* BLEGlobalSignIn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 841A71091B4E3BD20015F304 /* BLEGlobalSignIn.xcdatamodeld */; };
+		841A710E1B4E3BD20015F304 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A710D1B4E3BD20015F304 /* ViewController.m */; };
+		841A71111B4E3BD20015F304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841A710F1B4E3BD20015F304 /* Main.storyboard */; };
+		841A71131B4E3BD20015F304 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841A71121B4E3BD20015F304 /* Images.xcassets */; };
+		841A71161B4E3BD20015F304 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841A71141B4E3BD20015F304 /* LaunchScreen.xib */; };
+		841A71221B4E3BD20015F304 /* BLEGlobalSignInTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A71211B4E3BD20015F304 /* BLEGlobalSignInTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841A711C1B4E3BD20015F304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841A70F71B4E3BD20015F304 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841A70FE1B4E3BD20015F304;
+			remoteInfo = BLEGlobalSignIn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		841A70FF1B4E3BD20015F304 /* BLEGlobalSignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEGlobalSignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841A71031B4E3BD20015F304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841A71041B4E3BD20015F304 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		841A71061B4E3BD20015F304 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		841A71071B4E3BD20015F304 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		841A710A1B4E3BD20015F304 /* BLEGlobalSignIn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BLEGlobalSignIn.xcdatamodel; sourceTree = "<group>"; };
+		841A710C1B4E3BD20015F304 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		841A710D1B4E3BD20015F304 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		841A71101B4E3BD20015F304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841A71121B4E3BD20015F304 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		841A71151B4E3BD20015F304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		841A711B1B4E3BD20015F304 /* BLEGlobalSignInTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEGlobalSignInTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841A71201B4E3BD20015F304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841A71211B4E3BD20015F304 /* BLEGlobalSignInTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEGlobalSignInTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841A70FC1B4E3BD20015F304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841A71181B4E3BD20015F304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841A70F61B4E3BD20015F304 = {
+			isa = PBXGroup;
+			children = (
+				841A71011B4E3BD20015F304 /* BLEGlobalSignIn */,
+				841A711E1B4E3BD20015F304 /* BLEGlobalSignInTests */,
+				841A71001B4E3BD20015F304 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		841A71001B4E3BD20015F304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841A70FF1B4E3BD20015F304 /* BLEGlobalSignIn.app */,
+				841A711B1B4E3BD20015F304 /* BLEGlobalSignInTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841A71011B4E3BD20015F304 /* BLEGlobalSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				841A71061B4E3BD20015F304 /* AppDelegate.h */,
+				841A71071B4E3BD20015F304 /* AppDelegate.m */,
+				841A710C1B4E3BD20015F304 /* ViewController.h */,
+				841A710D1B4E3BD20015F304 /* ViewController.m */,
+				841A710F1B4E3BD20015F304 /* Main.storyboard */,
+				841A71121B4E3BD20015F304 /* Images.xcassets */,
+				841A71141B4E3BD20015F304 /* LaunchScreen.xib */,
+				841A71091B4E3BD20015F304 /* BLEGlobalSignIn.xcdatamodeld */,
+				841A71021B4E3BD20015F304 /* Supporting Files */,
+			);
+			path = BLEGlobalSignIn;
+			sourceTree = "<group>";
+		};
+		841A71021B4E3BD20015F304 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				841A71031B4E3BD20015F304 /* Info.plist */,
+				841A71041B4E3BD20015F304 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		841A711E1B4E3BD20015F304 /* BLEGlobalSignInTests */ = {
+			isa = PBXGroup;
+			children = (
+				841A71211B4E3BD20015F304 /* BLEGlobalSignInTests.m */,
+				841A711F1B4E3BD20015F304 /* Supporting Files */,
+			);
+			path = BLEGlobalSignInTests;
+			sourceTree = "<group>";
+		};
+		841A711F1B4E3BD20015F304 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				841A71201B4E3BD20015F304 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841A70FE1B4E3BD20015F304 /* BLEGlobalSignIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841A71251B4E3BD20015F304 /* Build configuration list for PBXNativeTarget "BLEGlobalSignIn" */;
+			buildPhases = (
+				841A70FB1B4E3BD20015F304 /* Sources */,
+				841A70FC1B4E3BD20015F304 /* Frameworks */,
+				841A70FD1B4E3BD20015F304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLEGlobalSignIn;
+			productName = BLEGlobalSignIn;
+			productReference = 841A70FF1B4E3BD20015F304 /* BLEGlobalSignIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		841A711A1B4E3BD20015F304 /* BLEGlobalSignInTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841A71281B4E3BD20015F304 /* Build configuration list for PBXNativeTarget "BLEGlobalSignInTests" */;
+			buildPhases = (
+				841A71171B4E3BD20015F304 /* Sources */,
+				841A71181B4E3BD20015F304 /* Frameworks */,
+				841A71191B4E3BD20015F304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841A711D1B4E3BD20015F304 /* PBXTargetDependency */,
+			);
+			name = BLEGlobalSignInTests;
+			productName = BLEGlobalSignInTests;
+			productReference = 841A711B1B4E3BD20015F304 /* BLEGlobalSignInTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841A70F71B4E3BD20015F304 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "SMART Cloud Computing";
+				TargetAttributes = {
+					841A70FE1B4E3BD20015F304 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					841A711A1B4E3BD20015F304 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 841A70FE1B4E3BD20015F304;
+					};
+				};
+			};
+			buildConfigurationList = 841A70FA1B4E3BD20015F304 /* Build configuration list for PBXProject "BLEGlobalSignIn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841A70F61B4E3BD20015F304;
+			productRefGroup = 841A71001B4E3BD20015F304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841A70FE1B4E3BD20015F304 /* BLEGlobalSignIn */,
+				841A711A1B4E3BD20015F304 /* BLEGlobalSignInTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841A70FD1B4E3BD20015F304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841A71111B4E3BD20015F304 /* Main.storyboard in Resources */,
+				841A71161B4E3BD20015F304 /* LaunchScreen.xib in Resources */,
+				841A71131B4E3BD20015F304 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841A71191B4E3BD20015F304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841A70FB1B4E3BD20015F304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841A71081B4E3BD20015F304 /* AppDelegate.m in Sources */,
+				841A710B1B4E3BD20015F304 /* BLEGlobalSignIn.xcdatamodeld in Sources */,
+				841A710E1B4E3BD20015F304 /* ViewController.m in Sources */,
+				841A71051B4E3BD20015F304 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841A71171B4E3BD20015F304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841A71221B4E3BD20015F304 /* BLEGlobalSignInTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841A711D1B4E3BD20015F304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841A70FE1B4E3BD20015F304 /* BLEGlobalSignIn */;
+			targetProxy = 841A711C1B4E3BD20015F304 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		841A710F1B4E3BD20015F304 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841A71101B4E3BD20015F304 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		841A71141B4E3BD20015F304 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841A71151B4E3BD20015F304 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841A71231B4E3BD20015F304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		841A71241B4E3BD20015F304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841A71261B4E3BD20015F304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BLEGlobalSignIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		841A71271B4E3BD20015F304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BLEGlobalSignIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		841A71291B4E3BD20015F304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BLEGlobalSignInTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLEGlobalSignIn.app/BLEGlobalSignIn";
+			};
+			name = Debug;
+		};
+		841A712A1B4E3BD20015F304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BLEGlobalSignInTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLEGlobalSignIn.app/BLEGlobalSignIn";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841A70FA1B4E3BD20015F304 /* Build configuration list for PBXProject "BLEGlobalSignIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841A71231B4E3BD20015F304 /* Debug */,
+				841A71241B4E3BD20015F304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841A71251B4E3BD20015F304 /* Build configuration list for PBXNativeTarget "BLEGlobalSignIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841A71261B4E3BD20015F304 /* Debug */,
+				841A71271B4E3BD20015F304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		841A71281B4E3BD20015F304 /* Build configuration list for PBXNativeTarget "BLEGlobalSignInTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841A71291B4E3BD20015F304 /* Debug */,
+				841A712A1B4E3BD20015F304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		841A71091B4E3BD20015F304 /* BLEGlobalSignIn.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				841A710A1B4E3BD20015F304 /* BLEGlobalSignIn.xcdatamodel */,
+			);
+			currentVersion = 841A710A1B4E3BD20015F304 /* BLEGlobalSignIn.xcdatamodel */;
+			path = BLEGlobalSignIn.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 841A70F71B4E3BD20015F304 /* Project object */;
+}
