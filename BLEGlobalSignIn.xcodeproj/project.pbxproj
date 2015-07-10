@@ -10,11 +10,38 @@
 		841A71051B4E3BD20015F304 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A71041B4E3BD20015F304 /* main.m */; };
 		841A71081B4E3BD20015F304 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A71071B4E3BD20015F304 /* AppDelegate.m */; };
 		841A710B1B4E3BD20015F304 /* BLEGlobalSignIn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 841A71091B4E3BD20015F304 /* BLEGlobalSignIn.xcdatamodeld */; };
-		841A710E1B4E3BD20015F304 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A710D1B4E3BD20015F304 /* ViewController.m */; };
-		841A71111B4E3BD20015F304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841A710F1B4E3BD20015F304 /* Main.storyboard */; };
 		841A71131B4E3BD20015F304 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841A71121B4E3BD20015F304 /* Images.xcassets */; };
 		841A71161B4E3BD20015F304 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841A71141B4E3BD20015F304 /* LaunchScreen.xib */; };
 		841A71221B4E3BD20015F304 /* BLEGlobalSignInTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A71211B4E3BD20015F304 /* BLEGlobalSignInTests.m */; };
+		841A712C1B4E3C660015F304 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841A712B1B4E3C660015F304 /* MainStoryboard_iPhone.storyboard */; };
+		841A712F1B4E3CE20015F304 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841A712E1B4E3CE20015F304 /* MultipeerConnectivity.framework */; };
+		841A71311B4E3CE90015F304 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841A71301B4E3CE90015F304 /* UIKit.framework */; };
+		841A71331B4E3CF30015F304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841A71321B4E3CF30015F304 /* Foundation.framework */; };
+		841A71351B4E3CFC0015F304 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841A71341B4E3CFC0015F304 /* CoreGraphics.framework */; };
+		841A71721B4E428F0015F304 /* bubble-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 841A71611B4E428F0015F304 /* bubble-left@2x.png */; };
+		841A71731B4E428F0015F304 /* bubble-right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 841A71621B4E428F0015F304 /* bubble-right@2x.png */; };
+		841A71741B4E428F0015F304 /* PhotoButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 841A71631B4E428F0015F304 /* PhotoButton@2x.png */; };
+		841A71761B4E428F0015F304 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 841A71651B4E428F0015F304 /* Default.png */; };
+		841A71771B4E428F0015F304 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 841A71661B4E428F0015F304 /* Default@2x.png */; };
+		841A71781B4E428F0015F304 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 841A71671B4E428F0015F304 /* Default-568h@2x.png */; };
+		841A71791B4E428F0015F304 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 841A71681B4E428F0015F304 /* Default-Portrait~ipad.png */; };
+		841A717A1B4E428F0015F304 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 841A71691B4E428F0015F304 /* Default-Portrait@2x~ipad.png */; };
+		841A717B1B4E428F0015F304 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 841A716A1B4E428F0015F304 /* Default-Landscape~ipad.png */; };
+		841A717C1B4E428F0015F304 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 841A716B1B4E428F0015F304 /* Default-Landscape@2x~ipad.png */; };
+		841A718C1B4E4B220015F304 /* MessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A71871B4E4B220015F304 /* MessageView.m */; };
+		841A718D1B4E4B220015F304 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A71891B4E4B220015F304 /* ImageView.m */; };
+		841A718E1B4E4B220015F304 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A718B1B4E4B220015F304 /* ProgressView.m */; };
+		841A71911B4E4C2E0015F304 /* SessionContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A71901B4E4C2E0015F304 /* SessionContainer.m */; };
+		841A71941B4E4C990015F304 /* Transcript.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A71931B4E4C990015F304 /* Transcript.m */; };
+		841A71971B4E4CF00015F304 /* ProgressObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A71961B4E4CF00015F304 /* ProgressObserver.m */; };
+		841A719C1B4E4E150015F304 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A71991B4E4E150015F304 /* MainViewController.m */; };
+		841A719D1B4E4E150015F304 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A719B1B4E4E150015F304 /* SettingsViewController.m */; };
+		841A71A41B4E54FB0015F304 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 841A719E1B4E54FB0015F304 /* Icon-Small-50.png */; };
+		841A71A51B4E54FB0015F304 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 841A719F1B4E54FB0015F304 /* Icon.png */; };
+		841A71A61B4E54FB0015F304 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 841A71A01B4E54FB0015F304 /* Icon-Small@2x.png */; };
+		841A71A71B4E54FB0015F304 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 841A71A11B4E54FB0015F304 /* Icon-Small.png */; };
+		841A71A81B4E54FB0015F304 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 841A71A21B4E54FB0015F304 /* Icon-72.png */; };
+		841A71A91B4E54FB0015F304 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 841A71A31B4E54FB0015F304 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +61,48 @@
 		841A71061B4E3BD20015F304 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		841A71071B4E3BD20015F304 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		841A710A1B4E3BD20015F304 /* BLEGlobalSignIn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BLEGlobalSignIn.xcdatamodel; sourceTree = "<group>"; };
-		841A710C1B4E3BD20015F304 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		841A710D1B4E3BD20015F304 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		841A71101B4E3BD20015F304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		841A71121B4E3BD20015F304 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		841A71151B4E3BD20015F304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		841A711B1B4E3BD20015F304 /* BLEGlobalSignInTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEGlobalSignInTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841A71201B4E3BD20015F304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841A71211B4E3BD20015F304 /* BLEGlobalSignInTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEGlobalSignInTests.m; sourceTree = "<group>"; };
+		841A712B1B4E3C660015F304 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		841A712E1B4E3CE20015F304 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		841A71301B4E3CE90015F304 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		841A71321B4E3CF30015F304 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		841A71341B4E3CFC0015F304 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		841A71611B4E428F0015F304 /* bubble-left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-left@2x.png"; sourceTree = "<group>"; };
+		841A71621B4E428F0015F304 /* bubble-right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-right@2x.png"; sourceTree = "<group>"; };
+		841A71631B4E428F0015F304 /* PhotoButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhotoButton@2x.png"; sourceTree = "<group>"; };
+		841A71651B4E428F0015F304 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		841A71661B4E428F0015F304 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		841A71671B4E428F0015F304 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		841A71681B4E428F0015F304 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		841A71691B4E428F0015F304 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		841A716A1B4E428F0015F304 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		841A716B1B4E428F0015F304 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		841A71861B4E4B220015F304 /* MessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageView.h; sourceTree = "<group>"; };
+		841A71871B4E4B220015F304 /* MessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageView.m; sourceTree = "<group>"; };
+		841A71881B4E4B220015F304 /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
+		841A71891B4E4B220015F304 /* ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
+		841A718A1B4E4B220015F304 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		841A718B1B4E4B220015F304 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		841A718F1B4E4C2E0015F304 /* SessionContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionContainer.h; sourceTree = "<group>"; };
+		841A71901B4E4C2E0015F304 /* SessionContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionContainer.m; sourceTree = "<group>"; };
+		841A71921B4E4C990015F304 /* Transcript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transcript.h; sourceTree = "<group>"; };
+		841A71931B4E4C990015F304 /* Transcript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transcript.m; sourceTree = "<group>"; };
+		841A71951B4E4CF00015F304 /* ProgressObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressObserver.h; sourceTree = "<group>"; };
+		841A71961B4E4CF00015F304 /* ProgressObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressObserver.m; sourceTree = "<group>"; };
+		841A71981B4E4E150015F304 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		841A71991B4E4E150015F304 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		841A719A1B4E4E150015F304 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		841A719B1B4E4E150015F304 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		841A719E1B4E54FB0015F304 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		841A719F1B4E54FB0015F304 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		841A71A01B4E54FB0015F304 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		841A71A11B4E54FB0015F304 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		841A71A21B4E54FB0015F304 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		841A71A31B4E54FB0015F304 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +110,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841A71351B4E3CFC0015F304 /* CoreGraphics.framework in Frameworks */,
+				841A71331B4E3CF30015F304 /* Foundation.framework in Frameworks */,
+				841A71311B4E3CE90015F304 /* UIKit.framework in Frameworks */,
+				841A712F1B4E3CE20015F304 /* MultipeerConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,14 +148,16 @@
 		841A71011B4E3BD20015F304 /* BLEGlobalSignIn */ = {
 			isa = PBXGroup;
 			children = (
+				841A712B1B4E3C660015F304 /* MainStoryboard_iPhone.storyboard */,
 				841A71061B4E3BD20015F304 /* AppDelegate.h */,
 				841A71071B4E3BD20015F304 /* AppDelegate.m */,
-				841A710C1B4E3BD20015F304 /* ViewController.h */,
-				841A710D1B4E3BD20015F304 /* ViewController.m */,
-				841A710F1B4E3BD20015F304 /* Main.storyboard */,
+				841A713A1B4E3DBA0015F304 /* Model */,
+				841A71471B4E3E310015F304 /* View */,
+				841A71361B4E3D100015F304 /* Controller */,
 				841A71121B4E3BD20015F304 /* Images.xcassets */,
 				841A71141B4E3BD20015F304 /* LaunchScreen.xib */,
 				841A71091B4E3BD20015F304 /* BLEGlobalSignIn.xcdatamodeld */,
+				841A712D1B4E3CCA0015F304 /* Frameworks */,
 				841A71021B4E3BD20015F304 /* Supporting Files */,
 			);
 			path = BLEGlobalSignIn;
@@ -120,6 +187,78 @@
 				841A71201B4E3BD20015F304 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		841A712D1B4E3CCA0015F304 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				841A71341B4E3CFC0015F304 /* CoreGraphics.framework */,
+				841A71321B4E3CF30015F304 /* Foundation.framework */,
+				841A71301B4E3CE90015F304 /* UIKit.framework */,
+				841A712E1B4E3CE20015F304 /* MultipeerConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		841A71361B4E3D100015F304 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				841A71981B4E4E150015F304 /* MainViewController.h */,
+				841A71991B4E4E150015F304 /* MainViewController.m */,
+				841A719A1B4E4E150015F304 /* SettingsViewController.h */,
+				841A719B1B4E4E150015F304 /* SettingsViewController.m */,
+				841A715A1B4E426E0015F304 /* Assets */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		841A713A1B4E3DBA0015F304 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				841A718F1B4E4C2E0015F304 /* SessionContainer.h */,
+				841A71901B4E4C2E0015F304 /* SessionContainer.m */,
+				841A71921B4E4C990015F304 /* Transcript.h */,
+				841A71931B4E4C990015F304 /* Transcript.m */,
+				841A71951B4E4CF00015F304 /* ProgressObserver.h */,
+				841A71961B4E4CF00015F304 /* ProgressObserver.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		841A71471B4E3E310015F304 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				841A71861B4E4B220015F304 /* MessageView.h */,
+				841A71871B4E4B220015F304 /* MessageView.m */,
+				841A71881B4E4B220015F304 /* ImageView.h */,
+				841A71891B4E4B220015F304 /* ImageView.m */,
+				841A718A1B4E4B220015F304 /* ProgressView.h */,
+				841A718B1B4E4B220015F304 /* ProgressView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		841A715A1B4E426E0015F304 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				841A719E1B4E54FB0015F304 /* Icon-Small-50.png */,
+				841A719F1B4E54FB0015F304 /* Icon.png */,
+				841A71A01B4E54FB0015F304 /* Icon-Small@2x.png */,
+				841A71A11B4E54FB0015F304 /* Icon-Small.png */,
+				841A71A21B4E54FB0015F304 /* Icon-72.png */,
+				841A71A31B4E54FB0015F304 /* Icon@2x.png */,
+				841A71611B4E428F0015F304 /* bubble-left@2x.png */,
+				841A71621B4E428F0015F304 /* bubble-right@2x.png */,
+				841A71631B4E428F0015F304 /* PhotoButton@2x.png */,
+				841A71651B4E428F0015F304 /* Default.png */,
+				841A71661B4E428F0015F304 /* Default@2x.png */,
+				841A71671B4E428F0015F304 /* Default-568h@2x.png */,
+				841A71681B4E428F0015F304 /* Default-Portrait~ipad.png */,
+				841A71691B4E428F0015F304 /* Default-Portrait@2x~ipad.png */,
+				841A716A1B4E428F0015F304 /* Default-Landscape~ipad.png */,
+				841A716B1B4E428F0015F304 /* Default-Landscape@2x~ipad.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +310,7 @@
 				TargetAttributes = {
 					841A70FE1B4E3BD20015F304 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 9MQD66W69X;
 					};
 					841A711A1B4E3BD20015F304 = {
 						CreatedOnToolsVersion = 6.4;
@@ -202,8 +342,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841A71111B4E3BD20015F304 /* Main.storyboard in Resources */,
 				841A71161B4E3BD20015F304 /* LaunchScreen.xib in Resources */,
+				841A71A41B4E54FB0015F304 /* Icon-Small-50.png in Resources */,
+				841A71741B4E428F0015F304 /* PhotoButton@2x.png in Resources */,
+				841A71721B4E428F0015F304 /* bubble-left@2x.png in Resources */,
+				841A71791B4E428F0015F304 /* Default-Portrait~ipad.png in Resources */,
+				841A71731B4E428F0015F304 /* bubble-right@2x.png in Resources */,
+				841A712C1B4E3C660015F304 /* MainStoryboard_iPhone.storyboard in Resources */,
+				841A717B1B4E428F0015F304 /* Default-Landscape~ipad.png in Resources */,
+				841A717A1B4E428F0015F304 /* Default-Portrait@2x~ipad.png in Resources */,
+				841A71761B4E428F0015F304 /* Default.png in Resources */,
+				841A71A71B4E54FB0015F304 /* Icon-Small.png in Resources */,
+				841A71A81B4E54FB0015F304 /* Icon-72.png in Resources */,
+				841A717C1B4E428F0015F304 /* Default-Landscape@2x~ipad.png in Resources */,
+				841A71771B4E428F0015F304 /* Default@2x.png in Resources */,
+				841A71A51B4E54FB0015F304 /* Icon.png in Resources */,
+				841A71A91B4E54FB0015F304 /* Icon@2x.png in Resources */,
+				841A71A61B4E54FB0015F304 /* Icon-Small@2x.png in Resources */,
+				841A71781B4E428F0015F304 /* Default-568h@2x.png in Resources */,
 				841A71131B4E3BD20015F304 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,9 +378,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841A718C1B4E4B220015F304 /* MessageView.m in Sources */,
+				841A71971B4E4CF00015F304 /* ProgressObserver.m in Sources */,
+				841A71941B4E4C990015F304 /* Transcript.m in Sources */,
+				841A719C1B4E4E150015F304 /* MainViewController.m in Sources */,
+				841A718E1B4E4B220015F304 /* ProgressView.m in Sources */,
 				841A71081B4E3BD20015F304 /* AppDelegate.m in Sources */,
+				841A718D1B4E4B220015F304 /* ImageView.m in Sources */,
 				841A710B1B4E3BD20015F304 /* BLEGlobalSignIn.xcdatamodeld in Sources */,
-				841A710E1B4E3BD20015F304 /* ViewController.m in Sources */,
+				841A719D1B4E4E150015F304 /* SettingsViewController.m in Sources */,
+				841A71911B4E4C2E0015F304 /* SessionContainer.m in Sources */,
 				841A71051B4E3BD20015F304 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,14 +411,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		841A710F1B4E3BD20015F304 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				841A71101B4E3BD20015F304 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		841A71141B4E3BD20015F304 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -353,7 +508,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BLEGlobalSignIn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -363,7 +520,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BLEGlobalSignIn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
